@@ -43,12 +43,11 @@ branchName: main
 e.g.)
 branchName: intraName
 │
-└── SolvedProblem/
-		├── 1. Two Sum/
-		│	└── main.cpp
-		├── 2. Add Two Numbers/
-		├── ...
-		├── ...
+├── 1. Two Sum/
+│	└── main.cpp
+├── 2. Add Two Numbers/
+├── ...
+├── ...
 ```
 
 ---
