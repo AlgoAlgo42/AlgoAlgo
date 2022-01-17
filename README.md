@@ -8,26 +8,28 @@
 
 ## Common Rules
 
-> _`main` branch_ -> 1주 1발표
+> ***1. 1주 1발표***
 >
-> _`intraName` branch_ -> 1일 1문제
+> ***2. 1일 1문제***
 
 ### **_1주 1발표 Rule_**
 
--   주제: 풀이한 문제의 코드리뷰 혹은 다른 발표.... (미정)
--   일시: 매주 화요일 2시, **개포 클러스터 4c** ( 미정)
--   발표자: 매주 1 ~ 2인 (미정)
--   `main branch`의 해당 디렉토리에 `push`
+- 주제: 공부한 것
+- 일시: 매주 목요일 2시
+- 장소: `*개포 클러스터* || *Zoom*`
+- Git Commit Rule
+	> `git commit -m "<intraname>: <주제>"`
 
 ```
 e.g.)
 branchName: main
 │
+├── Algorithm // Check the 1일 1문제 Rule below
 ├── Presentation
-│		├── 1. dijkstra
-│		│	├── imgs/
-│		│	└── README.md
-│		├── 2. Add Two Numbers
+│		├── 1st Week
+│		│	├── Something you learned.md
+│		│	└── Something other learned.md
+│		├── 2nd Week
 │		├── ...
 │		└── ...
 └── README.md
@@ -35,18 +37,21 @@ branchName: main
 
 ### **_1일 1문제 Rule_**
 
--   문제: leetcode
--   `git checkout -b intraName`
--   주말은 휴식
--   코드리뷰(미정)
+- `Top Interview Questions - LeetCode` by random pick
+- Precisely ***1 day 1 problem***
+- Replace space with `-`
+- Make P.R assigned to `<your kkanbu>` of the week
+- Git Commit Rule
+	> `git commit -m "Time: 76 ms (91.58%), Space: 39.6 MB (73.34%)"`
 
 ```
 e.g.)
-branchName: intraName
+Algorithm
 │
-├── 1. Two Sum/
-│	└── main.cpp
-├── 2. Add Two Numbers/
+├── 1-Two-Sum/
+│	├── <intraname>.py // solution
+│	└── <intraname>.md // pseudo code, explanation
+├── 2-Add-Two-Numbers/
 ├── ...
 ├── ...
 ```
@@ -54,5 +59,4 @@ branchName: intraName
 ---
 
 #### **_추천 chrome extension_**
-
--   https://github.com/QasimWani/LeetHub
+- https://github.com/QasimWani/LeetHub
