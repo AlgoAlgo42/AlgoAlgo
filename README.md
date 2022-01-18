@@ -39,7 +39,7 @@ branchName: main
 
 - `Top Interview Questions - LeetCode` by random pick
 - Precisely ***1 day 1 problem***
-- Replace space by `-`
+- Replace space with `-`
 - Make P.R assigned to `<your kkanbu>` of the week
 - Git Commit Rule
 	> `git commit -m "Time: 76 ms (91.58%), Space: 39.6 MB (73.34%)"`
