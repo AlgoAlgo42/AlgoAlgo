@@ -43,11 +43,11 @@ branchName: main
 
 > #### **_How To_**
 >
->     1. Fork the AlgoAlgo repo
+>     1. Fork the AlgoAlgo42/AlgoAlgo repo
 >     2. Install [LeetHub](https://github.com/QasimWani/LeetHub)
 >     3. Enroll the Forked repo to LeetHub
 >     4. Solve the problem
->     5. Make PR from <intraname>:main to AlgoAlgo:<intraname>
+>     5. Make PR from <githubName>/AlgoAlgo:main to AlgoAlgo42/AlgoAlgo:<intraname>
 
 ```
 e.g.)
