@@ -13,9 +13,9 @@ var setZeroes = function(matrix) {
     for (const element of zeroArr) {
         matrix.forEach((val, idx, arr) => {
             val[element[1]] = 0
-            if (idx === element[0])
-            {
-                arr[idx] = arr[idx].map(() => 0);
+            if (idx === element[0]) {
+                for (let i = 0,len = matrix[idx].length; i < len; ++i )
+                    matrix[idx][i] = 0;
             }
         });
     }
