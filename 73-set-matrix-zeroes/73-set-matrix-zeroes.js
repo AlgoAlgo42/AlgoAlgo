@@ -3,11 +3,11 @@
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
 var setZeroes = function(matrix) {
-    let zeroArr = new Array();
+    let zeroArr = [];
     
     matrix.forEach((val, row) => {
         val.forEach((val, col) => {
-            if (val == 0) zeroArr.push([row, col]);
+            if (val === 0) zeroArr.push([row, col]);
         });
     });
     for (const element of zeroArr) {
