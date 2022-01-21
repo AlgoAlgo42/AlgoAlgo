@@ -2,9 +2,9 @@ class Solution {
 public:
 void visitAdjLand(vector<vector<char>> &grid, int i, int j, int rows, int cols)
 {
-    if (i >= 0 && j >= 0 && i < rows && j < cols && grid[i][j] != '2' && grid[i][j] != '0')
+    if (i >= 0 && j >= 0 && i < rows && j < cols && grid[i][j] != '0')
     {
-        grid[i][j] = '2';
+        grid[i][j] = '0';
         visitAdjLand(grid, i + 1, j, rows, cols);
         visitAdjLand(grid, i, j + 1, rows, cols);
         visitAdjLand(grid, i - 1, j, rows, cols);
