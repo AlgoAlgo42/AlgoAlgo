@@ -27,10 +27,10 @@ public:
         return;
     }
     grid[i][j] = '2'; 
-    visitAdjLand(grid, i, j - 1, rows, cols);
-    visitAdjLand(grid, i - 1, j, rows, cols); 
-    visitAdjLand(grid, i, j + 1, rows, cols);
-    visitAdjLand(grid, i + 1, j, rows, cols); 
+    visitAdjLand(grid, i+1, j, rows, cols);
+    visitAdjLand(grid, i, j+1, rows, cols); 
+    visitAdjLand(grid, i-1, j, rows, cols);
+    visitAdjLand(grid, i, j-1, rows, cols); 
 
     return;
 }
