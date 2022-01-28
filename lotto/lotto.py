@@ -20,3 +20,4 @@ def solution(lottos, win_nums):
         answer[0] = 5 - (corr + zero - 2)
 
     return answer
+#git 어려워
