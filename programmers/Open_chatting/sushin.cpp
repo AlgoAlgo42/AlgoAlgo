@@ -24,18 +24,12 @@ vector<string> solution(vector<string> record) {
     }
     for (string i : record)
     {
+        k = i.find(' ', 6);
+        auto it = map.find(i.substr(6, k - 6));
         if (i.find("Enter") != string::npos)
-        {
-            k = i.find(' ', 6);
-            auto it = map.find(i.substr(6, k - 6));
             answer.push_back(it->second + "님이 들어왔습니다.");
-        }
         else if (i.find("Leave") != string::npos)
-        {
-            k = i.find(' ', 6);
-            auto it = map.find(i.substr(6, k - 6));
             answer.push_back(it->second + "님이 나갔습니다.");
-        }
     }
     return answer;
 }
