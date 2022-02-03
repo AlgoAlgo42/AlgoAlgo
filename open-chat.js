@@ -4,17 +4,17 @@ function solution(record) {
 	const eventList = [];
 
 	record.forEach((event) => {
-		const split = event.split(' ');
-		switch (split[0]) {
+		const [event, uid, nick] = event.split(' ');
+		switch (event) {
 			case 'Enter':
-				eventList.push([split[0], split[1]]);
-				nickName.set(split[1], split[2]);
+				eventList.push([event, uid]);
+				nickName.set(uid, nick);
 				break;
 			case 'Leave':
-				eventList.push([split[0], split[1]]);
+				eventList.push([event, uid]);
 				break;
 			case 'Change':
-				nickName.set(split[1], split[2]);
+				nickName.set(uid, nick);
 				break;
 		}
 	});
