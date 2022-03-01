@@ -36,7 +36,6 @@ void combination(int N, int k, string order, int idx)
 vector<string> solution(vector<string> orders, vector<int> course) 
 {
     vector<string> answer;
-    map<vector<int>, string> finalMap;
     vector<int> filter(11, 0);
 
     for (int k = 0; k < orders.size(); k++)
