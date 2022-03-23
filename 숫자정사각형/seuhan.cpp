@@ -6,7 +6,7 @@ int main() {
     int N, M, res = 1;
     cin >> N >> M;
 
-    int square[N][M];
+    int square[50][50];
 
     for (int i = 0; i < N; i++) {
         string tmp;
