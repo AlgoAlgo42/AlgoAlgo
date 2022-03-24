@@ -59,7 +59,6 @@ int	main(void)
 			table[guest - 1][i] = ATTEND;
 		}
 	}
-
 	for (int i = 0; i < aware; i++)
 	{
 		for (int j = 0; j < party; j++)
@@ -68,7 +67,6 @@ int	main(void)
                 check(table, people, party, aware_list[i] - 1, j);
         }
     }
-
 
 	for (int i = 0; i < party; i++)
 	{
@@ -82,7 +80,6 @@ int	main(void)
 		}
 	}
 	printf("%d", bluffs);
-
 	if (aware)
 		free(aware_list);
 	for (int i = 0; i < people; i++)
