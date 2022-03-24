@@ -1,13 +1,12 @@
 #include <iostream>
 #include <string>
-#define MAX 50
 using namespace std;
 
 int main() {
     int N, M, res = 1;
     cin >> N >> M;
 
-    int square[MAX][MAX];
+    int square[50][50];
 
     for (int i = 0; i < N; i++) {
         string tmp;
