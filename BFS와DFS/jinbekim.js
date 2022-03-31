@@ -14,7 +14,7 @@ for (let i = 0; i < M; ++i) {
 	graph[v2].push(v1);
 }
 for (let vertax in graph) {
-	graph[vertax].sort();
+	graph[vertax].sort((a, b) => a - b);
 }
 
 const dfs = function (graph, start) {
