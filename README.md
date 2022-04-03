@@ -4,6 +4,12 @@
 > 
 > Language : undefined
 
+```c
+while (!unresolved_algorithm.empty()) {
+  keep_hard();
+}
+```
+
 ## ✏️ 규칙
 
 ## 👨‍💻 팀원
