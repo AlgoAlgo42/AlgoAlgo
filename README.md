@@ -1,18 +1,24 @@
 # AlgoAlgo
 
-## **목적** : _동료학습을 이용해 규칙적으로 알고리즘을 해결하자!_
+> 2022.01.18 ~
+> 
+> Language : undefined
 
-## 1. Common Rules
+## ✏️ 규칙
 
-### **_문제풀이_**
+## 👨‍💻 팀원
+|<img src="https://avatars.githubusercontent.com/u/59330110?s=400&u=de9243f474493c9d4d44278c90f09afe53a39d80&v=4" width=150 />||||
+|:--:|:--:|:--:|:--:|
+|[jinbekim](https://github.com/jinbekim)||||
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=lljrwq123)](https://solved.ac/lljrwq123)||||
 
--   일주일에 5문제씩 선정.
--   pr은 `main` branch로 `문제이름띄어쓰기없이한글로/[intra_name].js`로 부탁드립니다.
+## 🔐 문제
+* [백준](https://www.acmicpc.net/)
 
-### **_git flow_**
 
-1. `git clone`
-2. 적당한 이름의 `branch` 생성
-3. `문제이름띄어쓰기없이한글로/[intra_name].js` 경로로 파일을 생성 후 풀이
-4. 원격으로 push 후에 github페이지에서 `main`브랜치로 pr생성
-5. 관련 issue와 linking & reveiw request
+## 🗂 디렉토리 및 파일
+`/문제이름/본인이름.file`
+* e.g. /DFS와BFS/jinbekim.js
+
+## 📝 코드리뷰
+* Pull requests 활용.
