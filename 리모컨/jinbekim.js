@@ -7,25 +7,22 @@ const input = require('fs')
 const channelTo = +input[0];
 let channelFrom = 100;
 const brokenButtonCount = +input[1];
-const workingButtons = [];
+let workingButtons = new Array(10).fill(0).map((_, i) => i);
 if (brokenButtonCount) {
 	const brokenButtons = Array.from(input[2].split(' ')).map(Number);
-	const tmp = new Array(10).fill(0).map((v, i) => i);
-	tmp.forEach((val) => {
-		if (!brokenButtons.includes(val)) {
-			workingButtons.push(val);
-		}
+	brokenButtons.forEach((val) => {
+		workingButtons.splice(val, 1);
 	});
 }
 answer = Math.abs(channelTo - channelFrom);
 
-function init(tmpNumber, count) {
+function init(tmpChannel, count) {
 	if (count > 6) return;
 	if (count) {
-		answer = Math.min(answer, count + Math.abs(channelTo - tmpNumber));
+		answer = Math.min(answer, count + Math.abs(channelTo - tmpChannel));
 	}
 	workingButtons.forEach((val) => {
-		init(tmpNumber * 10 + val, count + 1);
+		init(tmpChannel * 10 + val, count + 1);
 	});
 }
 
