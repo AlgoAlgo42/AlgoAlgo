@@ -13,10 +13,10 @@ while (!unresolved_algorithm.empty()) {
 ## ✏️ 규칙
 
 ## 👨‍💻 팀원
-|<img src="https://avatars.githubusercontent.com/u/59330110?s=400&u=de9243f474493c9d4d44278c90f09afe53a39d80&v=4" width=150 />|<img src="https://avatars.githubusercontent.com/u/61695415?v=4" width=150/>|||
+|<img src="https://avatars.githubusercontent.com/u/59330110?s=400&u=de9243f474493c9d4d44278c90f09afe53a39d80&v=4" width=150 />|<img src="https://avatars.githubusercontent.com/u/61695415?v=4" width=150/>|<img src="https://avatars.githubusercontent.com/u/64515926?s=400&v=4" width=150/>|||
 |:--:|:--:|:--:|:--:|
-|[jinbekim](https://github.com/jinbekim)|[jchoi](https://github.com/probablecode)|||
-|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=lljrwq123)](https://solved.ac/lljrwq123)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=oxcart)](https://solved.ac/oxcart)|||
+|[jinbekim](https://github.com/jinbekim)|[jchoi](https://github.com/probablecode)|[kyoon](https://github.com/probablecode)|||
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=lljrwq123)](https://solved.ac/lljrwq123)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=oxcart)](https://solved.ac/oxcart)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=ykm1256)](https://solved.ac/ykm1256)|||
 
 ## 🔐 문제
 * [백준](https://www.acmicpc.net/)
