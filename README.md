@@ -15,7 +15,7 @@ while (!unresolved_algorithm.empty()) {
 ## 👨‍💻 팀원
 |<img src="https://avatars.githubusercontent.com/u/59330110?s=400&u=de9243f474493c9d4d44278c90f09afe53a39d80&v=4" width=150 />|<img src="https://avatars.githubusercontent.com/u/61695415?v=4" width=150/>|||
 |:--:|:--:|:--:|:--:|
-|[jinbekim](https://github.com/jinbekim)|[probablecode](https://github.com/probablecode)|||
+|[jinbekim](https://github.com/jinbekim)|[jchoi](https://github.com/probablecode)|||
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=lljrwq123)](https://solved.ac/lljrwq123)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=oxcart)](https://solved.ac/oxcart)|||
 
 ## 🔐 문제
